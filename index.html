@@ -5,8 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Conferencing Platform</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="main-container">
+    
+        <!--Top Controls Container-->
+        <div class="top-controls">
+            <div class="original-sound">
+                <span>🎵</span>
+                Original Sound: Off
+            </div>
+
+            <button class="view-button">View</button>
+        </div>
+    
+        <!--Video Grid Container-->
+        <div class="video-grid">
+            <div class="video-container">
+                <img src="/Assets/Images/Sara.jpg" alt="Sara">
+                <div class="participant-name">Sara</div>
+            </div>
+            <div class="video-container">
+                <img src="/Assets/Images/Minra.jpg" alt="Minna">
+                <div class="participant-name">Minna</div>
+            </div>
+            <div class="video-container muted">
+                <img src="/Assets/Images/Victor.jpg" alt="Victor">
+                <div class="participant-name">Victor</div>
+            </div>
+            <div class="video-container">
+                <img src="/Assets/Images/Rikk.jpg" alt="Rikk">
+                <div class="participant-name">Rikk</div>
+            </div>
+        </div>
+    
+        <!--Bottom Controls Container-->
+        <div class="bottom-controls">
+
+            <!--Bottom-left Controls Container-->
+            <div class="bottom-left-controls">
+                <button class="control-button">
+                    <div class="icon"> 
+                        <i class="fa-solid fa-microphone-slash"></i>
+                    </div>
+
+                    <p>Unmute</p>
+                </button>
+    
+                <button class="control-button">
+                    <div class="icon">
+                        <i class="fa-solid fa-video-slash"></i>
+                    </div>
+
+                    <p>Start Video</p>
+                </button>
+            </div>
+
+
+            <!--Middle Controls Container-->
+            <div class="middle-controls">
+                <button class="control-button">
+                    <div class="icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+
+                    <p>Security</p>
+                </button>
+    
+                <button class="control-button">
+                    <div class="icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    
+                    <P>Participants</P>
+                </button>
+    
+                <button class="control-button">
+                    <div class="icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    
+                    <p>Chat</p>
+                </button>
+    
+                <button class="control-button active">
+                    <div class="icon">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </div>
+                    
+                    <p>Share Screen</p>
+                </button>
+    
+                <button class="control-button">
+                    <div class="icon">
+                        <i class="fa-solid fa-square-poll-vertical"></i>
+                    </div>
+
+                    <P>Polling</P>
+                </button>
+    
+                <button class="control-button">
+                    <div class="icon">
+                        <i class="fa-solid fa-record-vinyl"></i>
+                    </div>
+
+                    <p>Record</p>
+                </button>
+    
+                <button class="control-button">
+                    <div class="icon">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+
+                    <p>Breakout Rooms</p>
+                </button>
+    
+                <button class="control-button">
+                    <div class="icon">
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+
+                    <p>Reactions</p>
+                </button>
+            </div>
+            
+            <!--Bottom-right Controls Container-->
+            <button class="leave-button">Leave</button>
+        </div>
+    </div>
     
 </body>
 </html>
